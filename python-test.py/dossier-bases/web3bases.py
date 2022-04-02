@@ -32,5 +32,4 @@ totalSupply = contract.functions.totalSupply().call()
 print(contract.functions.name().call())
 print(contract.functions.symbol().call())
 print(web3.fromWei(totalSupply, 'ether'))
- 
-print("caca")
+
