@@ -33,3 +33,6 @@ print(contract.functions.name().call())
 print(contract.functions.symbol().call())
 print(web3.fromWei(totalSupply, 'ether'))
 
+print("ozehfaozeifha")
+print('nazofnazefkjn')
+print("zazkfhuze")
