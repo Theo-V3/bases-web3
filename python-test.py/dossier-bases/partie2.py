@@ -34,5 +34,5 @@ print(contract.functions.symbol().call())
 print(web3.fromWei(totalSupply, 'ether'))
 
 
-balance = contract.functions.balanceOf('0xed2a7edd7413021d440b09d654f3b87712abab66').call()
+balance = contract.functions.balanceOf('0x4f60a160D8C2DDdaAfe16FCC57566dB84D674BD6').call()
 print(web3.fromWei(balance, 'ether'))
